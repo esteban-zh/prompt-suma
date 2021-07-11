@@ -4,6 +4,4 @@ let num3=parseInt(prompt("ingrese el tercer numero"));
 
 var sum = (num1 + num2 + num3);
 
-console.log(sum);
-
-document.getElementById("suma").innerHTML=sum;
+alert(`la suma es ${sum}`);
